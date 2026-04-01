@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <link rel="icon" href="img/Storefront.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="img/logo.png" alt="Логотип"></a>
+        <nav class="header__nav">
+            <ul class="header__desktop-menu">
+                <li class="header__item"><a class="header__link scale" href="">Marketplace</a></li>
+                <li class="header__item"><a class="header__link scale" href="">Rankings</a></li>
+                <li class="header__item"><a class="header__link scale" href="">Connect a wallet</a></li>
+
+                <li class="header__item"></li>
+                    <a href="#" class="scale button button_filed button_secondary">
+                    <img src="img/user.png" alt="Регистрация">
+                    <span class="button__text">Sign Up</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <input type="checkbox" class="header__nav-mobile-btn">
+        <nav class="header__nav-mobile"></nav>
+    </header>
+
+    <section class="hero section-padding">
+        <div class="container hero__container">
+            <div class="hero__text">
+                <div class="hero__headline">
+                <h1 class="hero__title">Discover Digital art & Collect NFTs</h1>
+                <p class="hero__subtitle">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+                </div>
+                <a href="#" class="scale button hero__button button_filed button_secondary">
+                    <img src="img/RocketLaunch.png" alt="икнонка ракеты">
+                    <span>Get Srarted</span>
+                </a>
+                <div class="hero__additional-info">
+                    <div class="hero__additional-item">
+                        <span class="hero__total font-number">240k+</span>
+                        <span class="hero_label">Total sale</span>
+                    </div>
+
+                    <div class="hero__additional-item">
+                        <span class="hero__total font-number">100k+</span>
+                        <span class="hero_label">Auctions</span>
+                    </div>
+
+                    <div class="hero__additional-item">
+                        <span class="hero__total font-number">240k+</span>
+                        <span class="hero_label">Artists</span>
+                    </div>
+                </div>
+            </div>
+            <img width="510" height="510" src="img/heroanimationtransparentbck-2.gif">
+        </div>
+    </section>
+
+    <section class="trendig-collection section-padding">
+        <div class="container">
+            <div class="headline">
+                <div class="headline__wrapper">
+                <h3 class="heading-h3 heading-h3_color-light ">Trending Collection</h3>
+                <p class="headline__subhead">Checkout Our Weekly Updated Trending Collection.</p>
+                </div>
+            </div>
+            <div class="trendig-collection__collection">
+                <div class="trendig-collection__card">
+                    <div class="trendig-collection__photos">
+                        <img class="scale trendig-collection__primary-photo photo_radius" src="img/dog.png" alt="NFT-карточка">
+                        <div class="trendig-collection__addittonal-photos">
+                            <img class="scale trendig-collection__additonal-photo photo_radius" src="img/rabbit.png" alt="NFT-карточка">
+                            <img class="scale trendig-collection__additonal-photo photo_radius" src="img/bear.png" alt="NFT-карточка">
+                            <div class="scale trendig-collection__additonal-photo trendig-collection__number photo_radius font-number">
+                                1025+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trendig-collection__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Dsgn Animals</h5>
+                        <div class="artist-card">
+                            <img class="artist-card__photo" src="img/mrfox.png" alt="artist">
+                            <span class="artist-card__name">MrFox</span>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="trendig-collection__card">
+                    <div class="trendig-collection__photos">
+                        <img class="scale trendig-collection__primary-photo photo_radius" src="img/mushroom.png" alt="NFT-карточка">
+                        <div class="trendig-collection__addittonal-photos">
+                            <img class="scale trendig-collection__additonal-photo photo_radius" src="img/rabbit.png" alt="NFT-карточка">
+                            <img class="scale trendig-collection__additonal-photo photo_radius" src="img/bear.png" alt="NFT-карточка">
+                            <div class="scale trendig-collection__additonal-photo trendig-collection__number photo_radius font-number">
+                                1025+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trendig-collection__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Dsgn Animals</h5>
+                        <div class="artist-card">
+                            <img class="artist-card__photo" src="img/mrfox.png" alt="artist">
+                            <span class="artist-card__name">MrFox</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                   <div class="trendig-collection__card">
+                    <div class="trendig-collection__photos">
+                        <img class="scale trendig-collection__primary-photo photo_radius" src="img/robot.png" alt="NFT-карточка">
+                        <div class="trendig-collection__addittonal-photos">
+                            <img class="scale trendig-collection__additonal-photo photo_radius" src="img/rabbit.png" alt="NFT-карточка">
+                            <img class="scale trendig-collection__additonal-photo photo_radius" src="img/bear.png" alt="NFT-карточка">
+                            <div class="scale trendig-collection__additonal-photo trendig-collection__number photo_radius font-number">
+                                1025+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trendig-collection__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Dsgn Animals</h5>
+                        <div class="artist-card">
+                            <img class="artist-card__photo" src="img/mrfox.png" alt="artist">
+                            <span class="artist-card__name">MrFox</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="top-rated-artists section-padding">
+        <div class="container">
+            <div class="headline">
+                <div class="headline__wrapper">
+                    <h3 class="heading-h3 heading-h3_color-light ">Top Creators</h3>
+                    <p class="headline__subhead">Checkout Top Rated Creators on the NFT Marketplace</p>
+                </div>
+                <a href="#" class="scale button button_secondary button_outline">
+                    <img src="img/RocketLaunchFilled.png" alt="">
+                    <span>View Rankings</span>
+                </a>
+            </div>
+
+            <div class="flex-cards-wrapper top-rated-artists__cards ">
+                <a  href="#" class="top-rated-artists__card photo_radius scale   ">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="top-rated-artists__card photo_radius scale">
+                    <span class="top-rated-artists__ranking-number font-number">1</span>
+                    <img class="top-rated-artists__avatar" src="img/keepitreal.png" alt="">
+                    <div class="top-rated-artists__info">
+                        <h5 class="heading-h5 heading-h5_color-light">Keepitreal</h5>
+                        <div class="top-rated-artists__additional-info">
+                            <span class="top-rated-artists__label">Total Sales:</span>
+                            <span class="top-rated-artists__price font-number">34.53 ETH</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="categories section-padding">
+        <div class="container">
+
+            <div class="headline">
+                <div class="headline__wrapper">
+                    <h3 class="heading-h3 heading-h3_color-light ">Browse Categories</h3>
+                </div>
+            </div>
+            <div class="flex-cards-wrapper categories__cards-wrapper">
+                <a href="#" class="categories__card scale photo_radius"> 
+                    <div class="categories__photo-wrapper">
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light">Art</h5>
+                </a>
+
+                <a href="#" class="categories__card scale photo_radius">
+                    <div class="categories__photo-wrapper"> 
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light">Collectbles</h5>
+                </a>
+
+                <a href="#" class="categories__card scale photo_radius"> 
+                    <div class="categories__photo-wrapper"> 
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light">Music</h5>
+                </a>
+
+                <a href="#" class="categories__card scale photo_radius"> 
+                    <div class="categories__photo-wrapper"> 
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light">Photography</h5>
+                </a>
+
+                <a href="#" class="categories__card scale photo_radius"> 
+                    <div class="categories__photo-wrapper"> 
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light"> Video</h5>
+                </a>
+
+                <a href="#" class="categories__card scale photo_radius"> 
+                    <div class="categories__photo-wrapper"> 
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light">Utility</h5>
+                </a>
+
+                <a href="#" class="categories__card scale photo_radius"> 
+                   <div class="categories__photo-wrapper"> 
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light">Sport</h5>
+                </a>
+
+                <a href="#" class="categories__card scale photo_radius"> 
+                    <div class="categories__photo-wrapper"> 
+                        <div class="categories__photo"></div>
+                    </div>
+                    <h5 class="categories__name heading-h5 heading-h5_color-light">Vertual Worlds</h5>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="discover section-padding">
+        <div class="container">
+            <div class="headline">
+                <div class="headline__wrapper">
+                    <h3 class="heading-h3 heading-h3_color-light ">Discover More NFTs</h3>
+                    <p class="headline__subhead">Explore new trending NFTs</p>
+                </div>
+                <a href="#" class="scale button button_secondary button_outline">
+                    <img src="img/Eye.png" alt="">
+                    <span>View Rankings</span>
+                </a>
+            </div>
+
+            <div class="flex-cards-wrapper discover__cards-wrapper">
+                <a href="#" class="discover__card photo_radius scale">
+                    <img class="discover__image" src="img/643133254.png" alt="">
+                    <div class="discover__info">
+                            <div class="discover__artist-info">
+                                <h5 class="heading-h5 heading-h5_color-light heading-h5_mb ">Distant Galaxy</h5>
+                                <div class="artist-card">
+                                <img class="artist-card__photo" src="img/mrfox.png" alt="artist">
+                                <span class="artist-card__name">MoonDanser</span>
+                            </div>
+                        </div>
+                    
+
+                    <div class="discover__additional-info">
+                        <div class="discover__additional-info-card discover__additional-info-card-left">
+                            <span class="discover__label">Price</span>
+                            <span class="discover__price font-number">1.63 ETH</span>
+                        </div>
+
+                        <div class="discover__additional-info-card discover__additional-info-card-right">
+                            <span class="discover__label font-number">Highest Bid</span>
+                            <span class="discover__price font-number">0.33 wETH</span>
+                        </div>
+                    </div>
+                    </div>
+                </a>
+
+                <a href="#" class="discover__card photo_radius scale">
+                    <img class="discover__image" src="img/635432341.png" alt="">
+                    <div class="discover__info">
+                            <div class="discover__artist-info">
+                                <h5 class="heading-h5 heading-h5_color-light heading-h5_mb ">Distant Galaxy</h5>
+                                <div class="artist-card">
+                                <img class="artist-card__photo" src="img/mrfox.png" alt="artist">
+                                <span class="artist-card__name">MoonDanser</span>
+                            </div>
+                        </div>
+                    
+
+                    <div class="discover__additional-info">
+                        <div class="discover__additional-info-card discover__additional-info-card-left">
+                            <span class="discover__label font-number">Price</span>
+                            <span class="discover__price font-number">1.63 ETH</span>
+                        </div>
+
+                        <div class="discover__additional-info-card discover__additional-info-card-right">
+                            <span class="discover__label font-number">Highest Bid</span>
+                            <span class="discover__price font-number">0.33 wETH</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+                <a href="#" class="discover__card photo_radius scale">
+                    <img class="discover__image" src="img/6f2dfe6921b6620c5678c5b0215637f93ef42f6f.png" alt="">
+                    <div class="discover__info">
+                            <div class="discover__artist-info">
+                                <h5 class="heading-h5 heading-h5_color-light heading-h5_mb ">Distant Galaxy</h5>
+                                <div class="artist-card">
+                                <img class="artist-card__photo" src="img/mrfox.png" alt="artist">
+                                <span class="artist-card__name">MoonDanser</span>
+                            </div>
+                        </div>
+                    
+
+                    <div class="discover__additional-info">
+                        <div class="discover__additional-info-card discover__additional-info-card-left">
+                            <span class="discover__label font-number">Price</span>
+                            <span class="discover__price font-number">1.63 ETH</span>
+                        </div>
+
+                        <div class="discover__additional-info-card discover__additional-info-card-right">
+                            <span class="discover__label font-number">Highest Bid</span>
+                            <span class="discover__price font-number">0.33 wETH</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlight">
+        <div class="container">
+            <div class="highlight__info" >
+                <div class="highlight__info-artist">
+                    <a class="highlight__artist" href="#">
+                        <div class="highlight__artist-card artist-card artist-card_background-dark photo_radius">
+                        <img class="artist-card__photo" src="img/mrfox.png" alt="artist">
+                        <span class="artist-card__name">Shroomie</span>
+                        </div>
+                    </a>
+                
+                <h2 class="heading-h2 heading-h2_color-light">Magic Mashooms</h2>
+                 <a href="#" class="scale button highlight__button button_filed-light button_secondary">
+                    <img src="img/Eye.png" width="20" height="20" alt="">
+                    <span class="button__text button__text_color-dark">See NFT</span>
+                </a>
+            </div>
+
+            <div class="highlight__auction-timer photo_radius">
+                <span class="font-number highlight__label">Auction ends in:</span>
+                <div class="highlight__timer">
+                    <div class="highlight__time">
+                        <span class="highlight__number font-number">59</span>
+                        <span class="highlight__number-label font-number">Hours</span>
+                    </div>
+                    <span class="highlight__divider font-number">:</span>
+                    <div class="highlight__time">
+                        <span class="highlight__number font-number">59</span>
+                        <span class="highlight__number-label font-number">Minutes</span>
+                    </div>
+                    <span class="highlight__divider font-number">:</span>
+                    <div class="highlight__time">
+                        <span class="highlight__number font-number">59</span>
+                        <span class="highlight__number-label font-number">Seconds</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="promotion section-padding">
+        <div class="container">
+            <div class="promotion__wrapper photo_radius">
+                <img src="img/photo_5249292949273645798_y.jpg" alt="" class="promotion__image photo_radius">
+                <div class="promotion__info">
+                    <div class="promotion__headline">
+                        <h3 class="heading-h3 heading-h3_color-light">Join Our Weekly Digest</h3>
+                        <p class="promotion__subhead">Get exclusive promotions & updates straight to your inbox.</p>
+                    </div>
+                    <form class="form-subscribe">  
+                        <input class="form-subscribe__field photo_radius" type="email" name="email" placeholder="Enter your email here">
+                        <button type="submit" class="form-subscribe__button button scale button_filed button_secondary">
+                            <img src="img/EnvelopeSimple.png">
+                            <span>Subscribe</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section-padding">
+        <div class="container">
+            <div class="footer__info">
+                <div class="footer__socials">
+                    <a href="" class="logo"><img src="img/logo.png" alt="Логотип"></a>
+                    <div class="footer__additional-info">
+                        <p class="footer__text">NFT marketplace UI created with Anima for Figma.</p>
+                        <div class="footer__join">
+                            <p class="footer__text">Join our community</p>
+                            <div class="footer__socials-links">
+                                <a href=""><img src="img/DiscordLogo.png" alt=""></a>
+                                <a href=""><img src="img/YoutubeLogo.png" alt=""></a>
+                                <a href=""><img src="img/TwitterLogo.png" alt=""></a>
+                                <a href=""><img src="img/InstagramLogo.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__explore">
+                    <h5 class="heading-h5 heading-h5_color-light">Explore</h5>
+                    <nav class="footer__nav">
+                        <ul class="footer__menu">
+                            <li class="footer__item"><a class="footer__link footer__text" href="">Marketplace</a></li>
+
+                            <li class="footer__item"><a class="footer__link footer__text" href="">Rankigs</a></li>
+
+                            <li class="footer__item"><a class="footer__link footer__text" href="">Connect</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__subscribe">
+                    <h5 class="heading-h5 heading-h5_color-light">Join Our Weekly Digest</h5>
+                    <div class="footer__subscribe-wrapper">
+                        <p class="footer__text footer__subscribe-text">Get exclusive promotions & updates straight to your inbox.</p>
+
+                        <form class="form-subscribe">  
+                        <input class="form-subscribe__field photo_radius" type="email" name="email" placeholder="Enter your email here">
+                        <button type="submit" class="form-subscribe__button button scale button_filed button_secondary">
+                            <span>Subscribe</span>
+                        </button>
+                    </form>
+                    </div>
+
+                </div>
+
+            </div>
+    
+            <div class="footer__copy footer__text">Ⓒ NFT Market. Use this template freely.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
